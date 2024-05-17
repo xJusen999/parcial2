@@ -1,0 +1,16 @@
+<div *ngIf="anime" class="card">
+    <img [src]="anime.img" class="card-img-top" alt="{{ anime.name }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ anime.name }}</h5>
+      <dl>
+        <dt>Rating ⭐:</dt>
+        <dd>{{ anime.rating }} </dd>
+        <dt>Category:</dt>
+        <dd>{{ anime.category }}</dd>
+        <dt>Episodes:</dt>
+        <dd>{{ anime.episodes }}</dd>
+      </dl>
+      <hr/>
+    </div>
+  </div>
+  
